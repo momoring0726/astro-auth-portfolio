@@ -52,6 +52,7 @@
       const res = await fetch("/api/register", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
+        // This line is the fix:
         body: JSON.stringify({ email, password }),
       });
 
