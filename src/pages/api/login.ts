@@ -4,6 +4,8 @@ import postgres from "pg";
 import bcrypt from "bcryptjs";
 import jwt from "jsonwebtoken";
 
+export const prerender = false;
+
 // Get the database connection string
 const connectionString = import.meta.env.DATABASE_URL;
 const { Pool } = postgres;

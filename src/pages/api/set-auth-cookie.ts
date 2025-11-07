@@ -1,6 +1,9 @@
 // src/pages/api/set-auth-cookie.ts
 import type { APIRoute } from "astro";
 
+// --- ADD THIS LINE ---
+export const prerender = false;
+
 export const POST: APIRoute = async ({ request, cookies }) => {
   const { token } = await request.json();
 
