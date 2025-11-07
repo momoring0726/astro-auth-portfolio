@@ -9,6 +9,16 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^5.15.4"
+    "@tailwindcss/vite": "^4.1.17",
+    "astro": "^5.15.4",
+    "bcryptjs": "^3.0.3",
+    "jsonwebtoken": "^9.0.2",
+    "pg": "^8.16.3",
+    "tailwindcss": "^4.1.17"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "@types/jsonwebtoken": "^9.0.10",
+    "@types/pg": "^8.15.6"
   }
 }
